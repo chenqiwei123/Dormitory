@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Java EE 6-Java EE 6">
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.annotation.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.jms.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.ejb.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.persistence.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.transaction.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.resource.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.servlet.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.servlet.jsp.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.servlet.jsp.jstl.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.ejb.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.jms.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.servlet.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.resource.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.annotation.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.persistence.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.servlet.jsp.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.transaction.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/lib/javax.servlet.jsp.jstl.jar" />
+  </library>
+  <library name="lib">
+    <archive path="C:/Users/RunWsh/Desktop/sushe/WebContent/WEB-INF/lib/commons-io-2.0.1.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/WebContent/WEB-INF/lib/mysql-connector-java-3.1.12-bin.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/WebContent/WEB-INF/lib/commons-lang3-3.1.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/WebContent/WEB-INF/lib/freemarker-2.3.19.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/WebContent/WEB-INF/lib/commons-logging-1.1.1.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/WebContent/WEB-INF/lib/jackson-mapper-asl-1.9.2.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/WebContent/WEB-INF/lib/xwork-core-2.3.8.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/WebContent/WEB-INF/lib/javassist-3.11.0.GA.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/WebContent/WEB-INF/lib/ognl-3.0.6.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/WebContent/WEB-INF/lib/commons-fileupload-1.2.2.jar" />
+    <archive path="C:/Users/RunWsh/Desktop/sushe/WebContent/WEB-INF/lib/struts2-core-2.3.8.jar" />
+  </library>
+</eclipse-userlibraries>
+

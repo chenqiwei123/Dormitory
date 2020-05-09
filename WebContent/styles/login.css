@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    background: #ddd;
+    overflow: hidden;
+}
+#body-bg{
+    background-image: url("../images/bg11.jpg");
+    background-attachment: fixed;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: -50;
+    position: absolute;
+    top: -30;
+    width: 100%;
+    z-index: -10;
+    filter: url(blur.html#blur); /* FireFox, Chrome, Opera */
+    -webkit-filter: blur(2px); /* Chrome, Opera */
+       -moz-filter: blur(2px);
+        -ms-filter: blur(2px);    
+            filter: blur(2px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=2, MakeShadow=false); /* IE6~IE9 */
+}
+/* usual css*/
+.panel{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -60%);
+	-ms-transform: translate(-50%,-60%); 	/* IE 9 */
+	-moz-transform: translate(-50%,-60%); 	/* Firefox */
+	-webkit-transform: translate(-50%,-60%); /* Safari 和 Chrome */
+	-o-transform: translate(-50%,-60%); 
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+}
+/* nav-tab 标签页*/
+.nav-tabs{
+    border-bottom: 1px solid #ddd;
+    height: 40px;
+    *height: 40px;
+}
+.tab-pane {
+    display: none;
+}
+.show{
+    display: block;
+}
+/* modal dialog 弹出层  */
+.modal-dialog{
+    display: none;
+    position: absolute;
+    left: 425px;
+    z-index: 1000;
+    overflow: hidden;
+}
+.modal-header {
+    min-height: 16.42857143px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+}
+.modal-body {
+    position: relative;
+    padding: 15px;
+}
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+#QRCodeshow{
+    float: right;
+    
+}
+
+#QRCodeshow .pc{margin: -30px auto;background-repeat:no-repeat; display:block; background:url(../images/qrcodeshow.png); background-position:3px 0px;width:60px; height:60px; }
+#QRCodeshow .pc:hover{margin: -30px auto;width:60px; height:60px; display:block; background:url(../images/qrcodeshow.png); background-position:-74px 0px;}
+#QRCodeshow .wx{margin: -30px auto;background-repeat:no-repeat; width:60px; height:60px; display:block; background:url(../images/qrcodeshow.png); background-position:-150px 0px;}
+#QRCodeshow .wx:hover{margin: -30px auto;width:60px; height:60px; display:block; background:url(../images/qrcodeshow.png); background-position:-212px 0px;}
+
+
+#QRCodeshow .image{
+    background: url("../images/ewm.html") no-repeat;
+    width: 72px;
+    height: 72px;
+    margin-top: -30px;
+    margin-right:0px;
+    border: none;
+    /*以下为IE6设置PNG透明代码*/
+    /*
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/logo-ecjtu.png");
+    */
+}
+
+
+.login{
+    width: 685px;
+    padding: 0;
+    background:url(../images/opciaty.png);
+	background-repeat:repeat;
+    background:rgba(255, 255, 255, 0.53); 
+}
+#QRCode{
+	display:none; 
+    float: left;
+    width: 400px;
+}
+#QRCode h3{
+   	line-height: 30px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top:-17px;
+    margin-left: 110px; 
+}
+#QRCode .image{
+   margin-left:105px;
+   margin-top:5px;
+}
+#QRCodeNote h4{
+   	line-height: 14px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-left:85px;
+    margin-bottom:-10px;
+    margin-top:5px;
+    color:#f9200b;
+}
+#logo{
+    width: 190px;
+    height: 230px;
+    float: left;
+    border-right: 1px #ffffff solid;
+}
+#logo .image{
+    background: url("../images/logo-ecjtu.png") no-repeat;
+    width: 125px;
+    height: 125px;
+    margin: 20px auto;
+    border: none;
+    /*以下为IE6设置PNG透明代码*/
+    /*
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/logo-ecjtu.png");
+    */
+}
+#logo h3{
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #E16E1F;
+    font-size: 16px;
+    margin-left:25px;
+}
+.login form{
+	display:block; 
+    float: left;
+    width: 400px;
+}
+
+
+input{
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.form-group span{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    color: #a7d4de;
+    font-size: 12px;
+}
+.form-group .control-label{
+    width: 100px;
+    color: #494E9F;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.form-group .normal{
+    width: 230px;
+}
+.form-group .yzm{
+    width: 70px;
+}
+.form-group .checkbox{
+    margin-left: 80px;
+}
+.form-group .offset{
+    margin-left: 100px;
+}
+.btn-success{
+    margin-right: 30px;
+}
+.btn-success,.btn-primary {
+    width: 80px;
+    border: none;
+}
+.nav-tabs li{
+    background: #FFFFFF;
+    display: block;
+    float: left;
+    line-height: 40px;
+    padding: 0 10px;
+}
+.nav-tabs li a{
+    display: block;
+}
+.modal-header a{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url("../images/close.gif") no-repeat;
+}
+.modal-header a:hover{
+    background: url("../images/close-h.gif") no-repeat;
+}
+.nav-tabs .active{
+    border: 1px solid #ddd;;
+    border-bottom: none;
+    margin-bottom: -2px;
+}
+#define{
+    width: 100%;
+    position: fixed;
+    bottom: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+#define hr{
+    color: #3239A9;
+    height: 3px;
+    background: #024f63;
+    border: none;
+    width: 70%;
+    margin: 0 auto;
+}
+#define p{
+    padding-top: 15px;
+    color: #024f63;
+}

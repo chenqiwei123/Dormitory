@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/sushe1"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="mysql-connector-java-8.0.19.jar" scope="TEST"/>
+	<levels>
+		<level name="lib" value="project"/>
+		<level name="Java EE 6-Java EE 6" value="project"/>
+	</levels>
+</component>

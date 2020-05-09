@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+/*header css*/
+.header{
+	width: 100%;
+	min-width: 1200px;
+    overflow: hidden;
+    height: 70px;
+    background: #2B7DAD;
+    border-bottom: 2px #FF7F27 solid;
+}
+#logo-edumis{
+	position: relative;
+    left: 300px;
+    top: 0;
+    height: 70px;
+    background: url(../images/logo_edumis.png) no-repeat;
+}
+/* page css*/
+#p_content{
+    width: 900px;
+    margin: 30px 320px;
+    min-height: 500px;
+}
+#p_content .attention h3{
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+.attention p{
+   font-size: 12px;
+   line-height: 25px;
+   text-indent: 2pc
+}
+.step{
+    height: 40px;
+    width: 80%;
+    margin-top: 20px;
+}
+.step li{
+    background:url("../images/progress1.png")  no-repeat  -225px center;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #696767;
+    font-weight: 600;
+    width: 30%;
+    text-align: right;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+#f_2{
+	 width: 33%;
+}
+.step .active{
+    background:url("../images/progress2.png")  no-repeat  -225px center;
+}
+/*核对*/
+#form_count{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#form_count .form-group{
+    margin-top: 20px;
+}
+#form_count input{
+    border-radius: 0;
+    width: 250px;
+}
+.control-label{
+    width: 80px;
+}
+#form_count .sub{
+    width: 80px;
+}
+/*验证*/
+#form_check{
+    display: none;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#form_check .form-group{
+    margin-top: 20px;
+}
+#form_check input{
+    border-radius: 0;
+    width: 250px;
+}
+#form_check .sub{
+    width: 80px;
+}
+/* 重置密码**/
+#pwd_reset{
+    display: none;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#pwd_reset .form-group{
+    margin-top: 20px;
+}
+#pwd_reset input{
+    border-radius: 0;
+    width: 250px;
+}
+#pwd_reset .sub{
+    width: 80px;
+}
+
+#define{
+    width: 100%;
+    position: fixed;
+    bottom: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+#define hr{
+    color: #3239A9;
+    height: 3px;
+    background: #3239A9;
+    border: none;
+    width: 70%;
+    margin: 0 auto;
+}
+#define p{
+    padding-top: 15px;
+    color: #3239A9;
+}

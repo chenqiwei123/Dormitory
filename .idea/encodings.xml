@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/action/AdminLog.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/AdminLogList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/BuildingAddSave.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/BuildingDel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/BuildingManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/BuildingUpdate.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/BuildingUpdateSave.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/DomitoryAdd.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/DomitoryAddSave.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/DomitoryDel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/DomitoryManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/DomitoryUpdate.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/DomitoryUpdateSave.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/GoLogin.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/LogAdd.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/LogAddSave.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/MyLog.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/MyLogList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/MyStudent.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/MyStudentList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/Notice.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/OutList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/PasswordUpdateSave.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/Quit.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/RepairAdd.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/RepairList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/StudentAddSave.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/StudentDel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/StudentLog.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/StudentManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/StudentQC.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/StudentQCSave.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/StudentRZ.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/StudentRZSave.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/StudentTH.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/StudentTHSave.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/StudentUpdate.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/StudentUpdateSave.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/TBAddSave.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/TBDel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/TBManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/TeacherAddSave.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/TeacherDel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/TeacherManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/TeacherUpdate.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/TeacherUpdateSave.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dao/StudentDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/db/DBHelper.java" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

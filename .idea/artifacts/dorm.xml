@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="dorm">
+    <output-path>$PROJECT_DIR$/target/artifacts/dorm</output-path>
+    <root id="archive" name="dorm.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/WebContent" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sushe1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="sushe1/web/Web" />
+    </root>
+  </artifact>
+</component>
