@@ -8,7 +8,8 @@ import java.sql.*;
 
 public class BuildingDao {
 	public static void main(String[] args) {
-		GetList("","Building_Name");
+//		GetList("","Building_Name");
+		Delete("Building_ID=22");
 	}
 	
 	//获取列表
@@ -146,11 +147,12 @@ public class BuildingDao {
 		}
 	}
 	//删除
-	public void Delete(String strwhere){
-		String sql="delete Building where ";
+	public static void Delete(String strwhere){
+		String sql="delete FROM Building where ";
 		sql+=strwhere;
 		Statement stat = null;
 		ResultSet rs = null;
+		System.out.println(sql);
 		Connection conn = new DBHelper().getConn();
 		try{
 			stat = conn.createStatement();

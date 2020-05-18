@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+/*header css*/
+.header{
+	width: 100%;
+	min-width: 1200px;
+    overflow: hidden;
+    height: 70px;
+    background: #2B7DAD;
+    border-bottom: 2px #FF7F27 solid;
+}
+#logo-edumis{
+	position: relative;
+    left: 300px;
+    top: 0;
+    height: 70px;
+    background: url(../images/logo_edumis.png) no-repeat;
+}
+/* page css*/
+#p_content{
+    width: 900px;
+    margin-top: 30px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ #p_content .wxloginSteps h2{
+   	line-height: 80px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 28px;
+    margin-top:10px;
+}
+#p_content .wxloginSteps h3{
+    font-size: 24px;
+    height: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.wxloginSteps p{
+   font-size: 20px;
+   line-height: 30px;
+   text-indent: 2pc
+}
+
+
+
+
+
+#define{
+    width: 100%;
+    /*position: fixed;*/
+    bottom: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+#define hr{
+    color: #3239A9;
+    height: 3px;
+    background: #3239A9;
+    border: none;
+    width: 98%;
+    margin: 0 auto;
+}
+#define p{
+    padding-top: 15px;
+    color: #3239A9;
+}

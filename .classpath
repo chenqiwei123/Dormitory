@@ -4,6 +4,14 @@
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/lib"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/Java EE 6-Java EE 6"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry exported="true" kind="lib" path="F:/腾讯云/wechat公众号/mysql-connector-java-8.0.19/mysql-connector-java-8.0.19.jar"/>
+	<classpathentry kind="lib" path="lib/javax.annotation.jar"/>
+	<classpathentry kind="lib" path="lib/javax.ejb.jar"/>
+	<classpathentry kind="lib" path="lib/javax.jms.jar"/>
+	<classpathentry kind="lib" path="lib/javax.persistence.jar"/>
+	<classpathentry kind="lib" path="lib/javax.resource.jar"/>
+	<classpathentry kind="lib" path="lib/javax.servlet.jar"/>
+	<classpathentry kind="lib" path="lib/javax.servlet.jsp.jar"/>
+	<classpathentry kind="lib" path="lib/javax.servlet.jsp.jstl.jar"/>
+	<classpathentry kind="lib" path="lib/javax.transaction.jar"/>
 	<classpathentry kind="output" path="out/production/sushe1"/>
 </classpath>

@@ -71,25 +71,21 @@ public class StudentManager extends ActionSupport {
 			out.print("<script language='javascript'>alert('请重新登录！');window.location='Login.jsp';</script>");
 			out.flush();out.close();return null;
 		}
-		//查询条件
-//		String strWhere="1=1";
-//		if(!(isInvalid(SearchKey)))
-//		{
-//			strWhere+=" and "+SearchRow+"='"+SearchKey+"'";
-//		}
-//		if(!(isInvalid(State)))
-//		{
-//			strWhere+=" and Student_State='"+State+"'";
-//		}
-//		else
-//		{
-//			strWhere+=" and Student_State='入住'";
-//		}
+//		查询条件
+		String strWhere="1=1";
+		if (!(isInvalid(SearchKey))||!(isInvalid(State))) {
+			if (!(isInvalid(SearchKey))) {
+				strWhere += " and " + SearchRow + "='" + SearchKey + "'";
+			}
+			if (!(isInvalid(State))){
+				strWhere += " and Student_State='" + State + "'";
+			}
+			list = new StudentDao().GetAllList(strWhere, "Student_Username");
+			dataNumberlist = new StudentDao().GetAllListCount();
+			return SUCCESS;
+		}
 
 		//查询数据个数
-
-
-
 		//查询所有
 		if (session.getAttribute("number111")==null) {
 			a=1;

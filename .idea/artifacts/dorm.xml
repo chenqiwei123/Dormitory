@@ -10,6 +10,15 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="lib" />
           <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="module" name="javax.annotation.jar" module-name="sushe1" />
+          <element id="library" level="module" name="javax.ejb.jar" module-name="sushe1" />
+          <element id="library" level="module" name="javax.jms.jar" module-name="sushe1" />
+          <element id="library" level="module" name="javax.persistence.jar" module-name="sushe1" />
+          <element id="library" level="module" name="javax.resource.jar" module-name="sushe1" />
+          <element id="library" level="module" name="javax.servlet.jar" module-name="sushe1" />
+          <element id="library" level="module" name="javax.servlet.jsp.jar" module-name="sushe1" />
+          <element id="library" level="module" name="javax.servlet.jsp.jstl.jar" module-name="sushe1" />
+          <element id="library" level="module" name="javax.transaction.jar" module-name="sushe1" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="sushe1/web/Web" />

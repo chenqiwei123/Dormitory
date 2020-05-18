@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component inheritJdk="true">
+<component>
 	<output-test url="file://$MODULE_DIR$/out/test/sushe1"/>
 	<exclude-output/>
 	<contentEntry url="file://$MODULE_DIR$"/>
-	<lib name="mysql-connector-java-8.0.19.jar" scope="TEST"/>
+	<lib name="javax.annotation.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javax.annotation.jar!/"/>
+	</lib>
+	<lib name="javax.ejb.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javax.ejb.jar!/"/>
+	</lib>
+	<lib name="javax.jms.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javax.jms.jar!/"/>
+	</lib>
+	<lib name="javax.persistence.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/"/>
+	</lib>
+	<lib name="javax.resource.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javax.resource.jar!/"/>
+	</lib>
+	<lib name="javax.servlet.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/"/>
+	</lib>
+	<lib name="javax.servlet.jsp.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jar!/"/>
+	</lib>
+	<lib name="javax.servlet.jsp.jstl.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar!/"/>
+	</lib>
+	<lib name="javax.transaction.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javax.transaction.jar!/"/>
+	</lib>
 	<levels>
 		<level name="lib" value="project"/>
 		<level name="Java EE 6-Java EE 6" value="project"/>

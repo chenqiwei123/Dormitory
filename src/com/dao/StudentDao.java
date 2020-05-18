@@ -14,7 +14,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentDao {
-	
 	//验证登录
 	public static String CheckLogin(String username, String password){
 		String id = null;

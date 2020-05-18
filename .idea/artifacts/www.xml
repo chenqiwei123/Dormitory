@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="www">
+    <output-path>$PROJECT_DIR$/target/artifacts/www</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="sushe1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sushe1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="module" name="javax.annotation.jar" module-name="sushe1" />
+          <element id="library" level="module" name="javax.jms.jar" module-name="sushe1" />
+          <element id="library" level="module" name="javax.persistence.jar" module-name="sushe1" />
+          <element id="library" level="module" name="javax.resource.jar" module-name="sushe1" />
+          <element id="library" level="module" name="javax.servlet.jsp.jstl.jar" module-name="sushe1" />
+          <element id="library" level="module" name="javax.transaction.jar" module-name="sushe1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -80,20 +80,20 @@ public class DomitoryManager extends ActionSupport {
 		}
 		//查询条件
 		String strWhere="1=1";
-		if(!(isInvalid(SearchKey)))
-		{
-			strWhere+=" and "+SearchRow+"='"+SearchKey+"'";
+		if (!(isInvalid(SearchKey))||!(isInvalid(Domitory_BuildingID))) {
+			if (!(isInvalid(SearchKey))) {
+				strWhere += " and " + SearchRow + "='" + SearchKey + "'";
+			}
+			if (!(isInvalid(Domitory_BuildingID))) {
+				strWhere += " and Domitory_BuildingID='" + Domitory_BuildingID + "'";
+			}
+			list1 = new DomitoryDao().GetList(strWhere, "Building_Name");
+			return SUCCESS;
 		}
-		if(!(isInvalid(Domitory_BuildingID)))
-		{
-			strWhere+=" and Domitory_BuildingID='"+Domitory_BuildingID+"'";
-		}
-
 		//查询所有楼宇
 		buildinglist=new BuildingDao().GetList("","Building_Name");
 
 		//查询所有
-		list=new DomitoryDao().GetList(strWhere,"Building_Name");
 		list1=new DomitoryDao().GetList(strWhere,"Building_Name",a);
 
 		return SUCCESS;
