@@ -3,9 +3,9 @@ package com.db;
 import java.sql.*;
 
 public class DBHelper {
-	private String dbUrl="jdbc:mysql://175.24.12.113/sushe?characterEncoding=utf8";
+	private String dbUrl="jdbc:mysql://XXXXXXXXX/sushe?characterEncoding=utf8";
 	private String dbUser="root";
-	private String dbPassword="Chen123456...";
+	private String dbPassword="root";
 	private String jdbcName="com.mysql.jdbc.Driver";
 
 	//连接数据库
