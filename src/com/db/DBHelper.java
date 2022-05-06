@@ -3,10 +3,10 @@ package com.db;
 import java.sql.*;
 
 public class DBHelper {
-	private String dbUrl="jdbc:mysql://XXXXXXXXX/sushe?characterEncoding=utf8";
+	private String dbUrl="jdbc:mysql://1.15.46.56:3306/sushe?useUnicode=true&characterEncoding=utf8";
 	private String dbUser="root";
-	private String dbPassword="root";
-	private String jdbcName="com.mysql.jdbc.Driver";
+	private String dbPassword="Chen123456...";
+	private String jdbcName="com.mysql.cj.jdbc.Driver";
 
 	//连接数据库
 	public Connection getConn(){

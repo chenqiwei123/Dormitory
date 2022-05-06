@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sushe1:Web exploded">
+    <output-path>$PROJECT_DIR$/target/artifacts/sushe1_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="sushe1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="sushe1/web/Web" />
+          <element id="module-output" name="sushe1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.transaction.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.resource.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.persistence.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.jms.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.annotation.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.ejb.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.servlet.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

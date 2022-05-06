@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component>
-	<output-test url="file://$MODULE_DIR$/out/test/sushe1"/>
-	<exclude-output/>
-	<contentEntry url="file://$MODULE_DIR$"/>
+<component inherit-compiler-output="true" jdk="1.8" jdk_type="JavaSDK">
+	<contentEntry url="file://$MODULE_DIR$">
+		<excludeFolder url="file://$MODULE_DIR$/out"/>
+	</contentEntry>
 	<lib name="javax.annotation.jar" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javax.annotation.jar!/"/>
 	</lib>
@@ -31,7 +31,7 @@
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javax.transaction.jar!/"/>
 	</lib>
 	<levels>
-		<level name="lib" value="project"/>
 		<level name="Java EE 6-Java EE 6" value="project"/>
+		<level name="lib" value="project"/>
 	</levels>
 </component>
