@@ -19,7 +19,7 @@ body{
     filter: url(blur.html#blur); /* FireFox, Chrome, Opera */
     -webkit-filter: blur(2px); /* Chrome, Opera */
        -moz-filter: blur(2px);
-        -ms-filter: blur(2px);    
+        -ms-filter: blur(2px);
             filter: blur(2px);
     filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=2, MakeShadow=false); /* IE6~IE9 */
 }
@@ -36,7 +36,7 @@ body{
 	-ms-transform: translate(-50%,-60%); 	/* IE 9 */
 	-moz-transform: translate(-50%,-60%); 	/* Firefox */
 	-webkit-transform: translate(-50%,-60%); /* Safari 和 Chrome */
-	-o-transform: translate(-50%,-60%); 
+	-o-transform: translate(-50%,-60%);
 }
 .center-block {
     display: block;
@@ -105,7 +105,7 @@ body{
 }
 #QRCodeshow{
     float: right;
-    
+
 }
 
 #QRCodeshow .pc{margin: -30px auto;background-repeat:no-repeat; display:block; background:url(../images/qrcodeshow.png); background-position:3px 0px;width:60px; height:60px; }
@@ -130,14 +130,12 @@ body{
 
 
 .login{
-    width: 685px;
+    width: 40%;
     padding: 0;
-    background:url(../images/opciaty.png);
-	background-repeat:repeat;
-    background:rgba(255, 255, 255, 0.53); 
+    background: rgba(255, 255, 255, 0.53);
 }
 #QRCode{
-	display:none; 
+	display:none;
     float: left;
     width: 400px;
 }
@@ -146,7 +144,7 @@ body{
     letter-spacing: 1px;
     font-size: 18px;
     margin-top:-17px;
-    margin-left: 110px; 
+    margin-left: 110px;
 }
 #QRCode .image{
    margin-left:105px;
@@ -187,9 +185,9 @@ body{
     margin-left:25px;
 }
 .login form{
-	display:block; 
+	display:block;
     float: left;
-    width: 400px;
+    width: 100%;
 }
 
 
