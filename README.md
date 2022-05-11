@@ -37,7 +37,7 @@
 
 **首页展示:**  
 
-![首页展示](Img/index.png)  
+![首页展示](https://github.com/chenqiwei123/Dormitory_Management_System/blob/master/Img/Index.png)  
 ![首页展示](Img/index2.png)  
 ![首页展示](Img/index3.png)  
 ![首页展示](Img/img.png)  
