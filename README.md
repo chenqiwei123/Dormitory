@@ -1,8 +1,8 @@
 # Dormitory
 宿舍管理系统网站开发(演示地址:www.runwsh.com)
 角色: admin
-账号：adminqwe
-密码：adminqwe
+账号：admin
+密码：admin
 
 
 # 高校宿舍管理系统  
@@ -37,10 +37,11 @@
 
 **首页展示:**  
 
-![首页展示](Img/index.png)  
+![首页展示](Img/Index.png)  
 ![首页展示](Img/index2.png)  
-![首页展示](Img/index3.png)  
-![首页展示](Img/img.png)  
+![首页展示](Img/Index3.png)  
+![首页展示](Img/img.png)
+
 
 ##  系统管理员模块  
 
