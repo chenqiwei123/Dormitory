@@ -8,7 +8,7 @@ public class DBHelper {
 	private String dbPassword="";
 	private String jdbcName="com.mysql.cj.jdbc.Driver";
 
-	//连接数据库.
+	//连接数据库测试
 	public Connection getConn(){
 		Connection conn = null;
 		try{
