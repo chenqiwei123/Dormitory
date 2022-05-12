@@ -1,5 +1,5 @@
 # Dormitory
-宿舍管理系统网站开发(演示地址:http://runwsh.com:90/)
+宿舍管理系统网站开发(演示地址:http://run.runwsh.com/)
 角色: admin
 账号：admin
 密码：admin
